@@ -1,0 +1,18 @@
+# تجاهل مجلد node_modules
+node_modules/
+
+# تجاهل مجلد build أو dist (على حسب المشروع)
+dist/
+build/
+
+# تجاهل ملفات بيئة سرية
+.env
+
+# نظام تشغيل macOS بيضيف ملفات مزعجة
+.DS_Store
+
+# ملفات Logs
+*.log
+
+# لو بتستخدم Vite وعايز تنشر على GitHub Pages، تجاهل gh-pages cache
+.gh-pages/
